@@ -30,14 +30,4 @@ public class ConsonantsCounter {
         }
         return count;
     }
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a sentences: ");
-        String sentence = scanner.nextLine();
-
-        ConsonantsCounter counter = new ConsonantsCounter(sentence);
-        int count = counter.countConsonantsInSentences();
-
-        System.out.println("Number of consonants in the words of the exclamatory sentence: " + count);
-    }
 }
